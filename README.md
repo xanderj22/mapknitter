@@ -25,26 +25,28 @@ MapKnitter is broken into three major components:
 
 Another moving part is the new-ish Annotations 2.0 which uses Leaflet.Illustrate (https://github.com/manleyjster/Leaflet.Illustrate) to provide rich annotation on top of maps. 
 
-## License
+## Quick install
 
-Map Knitter is free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
+We provide an install script for Amazon's Cloud9 service, which provides standard Linux virtual machines with a web-based editor: https://aws.amazon.com/cloud9/
 
-Map Knitter is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License for more details.
+To use it:
 
-You should have received a copy of the GNU General Public License
-along with Map Knitter.  If not, see <http://www.gnu.org/licenses/>.
+1. Click `Create new workspace`
+2. Name your workspace and enter `publiclab/plots2` under `Clone from Git or Mercurial URL`
+3. Choose `Ruby` template
+4. Click `Create workspace`
+5. Once it loads, in the `bash` console at the bottom of the screen, type `chmod 777 install.sh && ./install.sh`
+6. Press `Control-x` when prompted for a message.
+7. Wait for the installation to run, and when it's complete, press the `Run` button at the top of the page.
+8. Open the URL which pops up to see MapKnitter booted up. Great work!
+
+If you have any trouble installing, we're sorry! **Please [click here](https://github.com/publiclab/mapknitter/issues/307) to get support.**
 
 ## Installation video
 
 For a run-through of the Prerequisites and Installation steps listed below, you can watch the install video at:
 
-http://youtu.be/iGYGpS8rZMY
+http://youtu.be/iGYGpS8rZMY (may be slightly out of date, but gives an overview)
 
 ## Prerequisites
 
@@ -116,3 +118,19 @@ Help improve Public Lab software!
 * Review contributor guidelines at http://publiclab.org/wiki/contributing-to-public-lab-software
 * Some devs hang out in http://publiclab.org/chat (irc webchat)
 
+****
+
+## License
+
+Map Knitter is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+Map Knitter is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with Map Knitter.  If not, see <http://www.gnu.org/licenses/>.
